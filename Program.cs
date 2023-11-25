@@ -5,7 +5,7 @@ using System.Xml.Schema;
 
 while (true){
 
-Console.WriteLine("Digite 1 para somar ou 2 para subtarir ou 3 para multiplicar ou 4 para dividir ou 0 para sair.");
+Console.WriteLine("Digite 1 para somar ou 2 para subtarir ou 3 para multiplicar ou 4 para dividir ou 5 para ver o resto da divisão ou 6 para ver o resultado da potência ou 0 para sair.");
 
 var indice = int.Parse(Console.ReadLine());
 
@@ -39,11 +39,21 @@ switch (indice) {
     switch (resultado = numero1 / numero2)
     {}break;
 
+    case 6:
+    switch (resultado = Math.Pow(numero1,numero2))
+    {}break;
+
     case 0:
     System.Environment.Exit(-1);
-    {}break;
-            
-                       
+    {}break;  
+
+    case 5:
+    switch (resultado = numero1 % numero2)
+    {}break; 
+
+
+
+
 }
 Console.WriteLine(Convert.ToString(resultado));
 
