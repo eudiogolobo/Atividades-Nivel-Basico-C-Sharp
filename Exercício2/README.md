@@ -1,4 +1,20 @@
-<h1>Atividade- 02</h1>
+### Soma e Média
+
+**Objetivo:** usando uma aplicação do tipo console do dotnet, criar uma aplicação que lê 3 à 10 números e realiza a soma e a média deles. Faça o controle de versionamento da sua aplicação com git e suba a mesma para o github.
+
+## Novos conceitos ou funcionalidades desse exercício
+
+Faremos uso de loops e arrays no exercício, tente fazer o mesmo usando ´for´ e o ´foreach´.
+Faça o possível também para criar **métodos que recebam parâmetros e retornem valores**, dessa forma teremos uma codificação mais limpa e de fácil leitura.
+
+Estudar:
+- Criação de métodos
+- Receber parâmetros nos métodos
+- Retorno de valores nos métodos
+- Classe ´List´ do Dotnet
+- Loops ´for´ e ´foreach´
+
+## Requisitos para desenvolver a aplicação
 
 - Ao abrir a aplicação deverá ser solicitado a quantidade de números que o usuário deseja informar. O número de valores deve ser entre 3 e 10.
 
